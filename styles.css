@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(244, 241, 236);
+}
+
+/*HEADER*/
+header {
+  position: relative;
+  text-align: center;
+  color: rgb(87, 24, 24);
+}
+
+header img {
+  max-height: 400px;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 3px 8px rgba(23, 21, 24, 0.18);
+  background-color: #fff;
+  margin: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+header p {
+  color: rgb(233, 141, 141);
+}
+/*MAIN*/
+main {
+  position: relative;
+  margin: 10px 60px 10px 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.div-hero {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  box-shadow: 3px 3px 8px rgba(23, 21, 24, 0.18);
+  background-color: rgb(180, 210, 231);
+}
+.hero-heading,
+.hero-description {
+  padding: 0 10px;
+  margin-left: 30px;
+  color: rgb(233, 141, 141);
+}
+
+.learn-more {
+  color: rgb(140, 57, 57);
+  font-size: 16px;
+  font-weight: 900;
+  text-decoration: none;
+}
+.linea {
+  border-top: 2px solid rgb(233, 220, 220);
+  height: 4px;
+  margin: 10px;
+}
+
+.div-hero p,
+li {
+  padding: 10px;
+  margin-left: 30px;
+  color: rgb(202, 125, 125);
+}
